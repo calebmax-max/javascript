@@ -1,4 +1,4 @@
-// IN Javascript we need to have an initializer before declaruing a variable. In ES6 wwe have two types of initializers i.e
+// IN Javascript we need to have an initializer before declaring a variable. In ES6 we have two types of initializers i.e
 
 // let :  It declares values which can be changed later on.
 // Hoisting

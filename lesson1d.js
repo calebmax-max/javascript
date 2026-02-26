@@ -58,6 +58,8 @@ let user = {
 
 // Arrays - special type of object used to store multiple values in order(THINK OF A LIST)
 let fruits = ["Apple", "Mango", "Orange"];
+console.log(fruits)
+console.log(fruits.slice(0,2))
 
 // Accessing
 console.log(fruits)

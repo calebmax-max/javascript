@@ -28,7 +28,7 @@ function multuplication(num1, num2){
     product = num1 * num2 /2
     console.log("The product of the two numbers is:", product,"cm\u00B2")
 }
-multuplication(20, 12)
+multiplication(20, 12)
 
 // Find the simple interest given the principle as 5000, rate 5% and time is 8years
 

@@ -1,28 +1,31 @@
 // Assignment
 
-//const is preferred for arrow functions because the function reference should not change.
-const greeting = (name) => {
-    console.log(`Hello ${name}`);
-};
-
-greeting("Caleb"); // Hello Caleb
-
-// Trying to reassign will cause an error
-// greet = () => console.log("Hi"); // ❌ Error
-
-//You can use let, but it allows the function reference to change:
-let greetings = (name) => {
-    console.log(`Hello ${name}`);
-};
-
-greetings("Caleb"); // Hello Caleb
-
-// Reassigning is allowed
-greet = (name) => console.log(`Hi ${name}`);
-greetings("Caleb"); // Hi Caleb
 
 
 // Global and Local variables
+//Global variable is declared outside any function or block.
+//It ca be accessed anywhere in your program
+let name = "Caleb";   // Global variable
+
+function greet() {
+    console.log("Hello " + name);
+}
+
+greet();   // Hello Caleb
+console.log(name);    // Caleb
+console.log("==================================")
+
+//Local variables
+// Is declared inside a function or block
+function greet() {
+    let message = "Hello";
+    console.log(message);
+}
+
+greet();          // Hello
+console.log(message); // ❌ Error (not defined)
+console.log("==================================")
+
 
 const number =(num) =>{
     for(let num=1; num <=50; num++)
@@ -41,3 +44,4 @@ const number =(num) =>{
 
 };
 number();
+console.log("==================================")
